@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/id_menu_item_calculateCoursePoint"
+        android:title="平均绩点" />
+    <item
+        android:id="@+id/id_menu_item_sumCourseCredit"
+        android:title="已获学分" />
+</menu>

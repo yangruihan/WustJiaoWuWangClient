@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#DDDDDD"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/id_tabOther_btnUser"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="杨睿涵"
+            android:background="@drawable/other_button_boder"
+            android:paddingLeft="20sp"
+            android:paddingRight="20sp"
+            android:gravity="center_vertical"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:orientation="vertical"
+        android:paddingTop="5dp">
+
+        <Button
+            android:id="@+id/id_tabOther_btnClearLocalData"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="清除本地记录"
+            android:background="@drawable/other_button_boder"
+            android:paddingLeft="20sp"
+            android:paddingRight="20sp"
+            android:gravity="center_vertical"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="5dp">
+
+        <Button
+            android:id="@+id/id_tabOther_btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#AAff0000"
+            android:text="退出当前账号"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

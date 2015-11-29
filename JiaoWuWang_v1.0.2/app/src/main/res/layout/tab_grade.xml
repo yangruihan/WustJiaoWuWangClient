@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDDDDD"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/id_tabGrade_tvHint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="请登录获得成绩信息"
+        android:textSize="30sp"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/id_tabGrade_LinearLayoutShowInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="3dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:id="@+id/id_tabGrade_tvCourseName"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/grade_record_tv_bg"
+                android:gravity="center"
+                android:text="名称"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/id_tabGrade_tvGradeScore"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/grade_record_tv_bg"
+                android:gravity="center"
+                android:text="得分"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/id_tabGrade_tvCourseCredit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/grade_record_tv_bg"
+                android:gravity="center"
+                android:text="学分"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/id_tabGrade_tvCoursePoint"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/grade_record_tv_bg"
+                android:gravity="center"
+                android:text="绩点"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/id_tabGrade_SwipeRefreshWidget"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/id_tabGrade_recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@drawable/bottom_boder"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/id_ll_tab_syllabus"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/id_tvText_tab_syllabus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingTop="6dp"
+            android:text="课程表"
+            android:textColor="@color/tab_text_selected"
+            android:textSize="24sp" />
+
+        <!-- 用来指示当前的选择 -->
+        <TextView
+            android:id="@+id/id_tvShow_tab_syllabus"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/tab_show_selected" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_ll_tab_grade"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_tvText_tab_grade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingTop="6dp"
+            android:text="成绩"
+            android:textColor="@color/tab_text_no_selected"
+            android:textSize="24sp" />
+
+        <!-- 用来指示当前的选择 -->
+        <TextView
+            android:id="@+id/id_tvShow_tab_grade"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/tab_show_no_selected" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_ll_tab_other"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_tvText_tab_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingTop="6dp"
+            android:text="其他"
+            android:textColor="@color/tab_text_no_selected"
+            android:textSize="24sp" />
+
+        <!-- 用来指示当前的选择 -->
+        <TextView
+            android:id="@+id/id_tvShow_tab_other"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/tab_show_no_selected" />
+    </LinearLayout>
+
+</LinearLayout>

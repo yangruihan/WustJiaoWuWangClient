@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="gray">#DDDDDD</color>
+    <color name="text_gray">#444444</color>
+    <color name="text_gray2">#888888</color>
+
+    <color name="tab_text_selected">#DD4BA3F4</color>
+    <color name="tab_text_no_selected">#555555</color>
+
+    <color name="tab_show_selected">#DD4BA3F4</color>
+    <color name="tab_show_no_selected">#00000000</color>
+
+    <color name="refresh_color1">#33B5E5</color>
+    <color name="refresh_color2">#FF4444</color>
+    <color name="refresh_color3">#FFBB33</color>
+    <color name="refresh_color4">#99CC00</color>
+    
+    <color name="grade_item_normal">#AA4BA3F4</color>
+    <color name="grade_item_pressed">#DD366FA0</color>
+
+    <color name="transparent_white">#e0ffffff</color>
+    <color name="transparent_blue">#e05AA9F1</color>
+</resources>
